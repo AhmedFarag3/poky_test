@@ -1,0 +1,27 @@
+{
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "files.trimTrailingWhitespace": false
+    },
+    "[shellscript]": {
+        "files.eol": "\n",
+        "files.trimTrailingWhitespace": false
+    },
+    "files.associations": {
+        "*.h": "c",
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib",
+        "${workspaceFolder}bitbake/lib",
+        "meta/lib",
+        "${workspaceFolder}/bitbake/lib",
+        "${workspaceFolder}/meta/lib"
+    ],
+    "bitbake.pathToBuildFolder": "\"${workspaceFolder}/build\"",
+    "bitbake.pathToEnvScript": "\"${workspaceFolder}/sources/poky/oe-init-build-env\"",
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/bitbake",
+ 
+}
